@@ -1,0 +1,16 @@
+.hero-section {
+ background: url(../ảnh/kinh-nghiem-du-lich-cua-lo-11.webp) no-repeat center center;
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 80vh;
+}
+.card-img-custom {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.text-star {
+ color: rgb(12, 176, 126);
+}
