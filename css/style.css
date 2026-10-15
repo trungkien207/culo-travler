@@ -14,3 +14,7 @@
 .text-star {
  color: rgb(12, 176, 126);
 }
+ul.list-unstyled a {
+ color: inherit; 
+ text-decoration: none;
+}
