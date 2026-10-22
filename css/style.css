@@ -18,3 +18,146 @@ ul.list-unstyled a {
  color: inherit; 
  text-decoration: none;
 }
+<<<<<<< HEAD
+=======
+.hotel-card {
+    height: 100%;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hotel-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12) !important;
+}
+
+.hotel-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.hotel-card .card-body {
+    padding: 15px;
+}
+
+.hotel-card .card-title {
+    font-size: 16px;
+    min-height: 38px;
+}
+
+.hotel-rating {
+    color: #ffc107;
+    font-size: 18px;
+}
+
+.hotel-rating span {
+    color: #6c757d;
+    font-size: 12px;
+}
+
+.hotel-description {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.hotel-price {
+    color: #dc3545;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.hotel-card .btn {
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+@media (max-width: 400px) {
+    .hotel-price {
+        font-size: 12px;
+    }
+
+    .hotel-card .btn {
+        font-size: 11px;
+    }
+}
+.reviews {
+    background: #f7f8fa;
+    text-align: center;
+    padding-top: 0;
+}
+
+.review-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+    align-items: stretch;
+}
+
+.review-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 0;
+    min-height: 165px;
+    padding: 12px;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px #0000000d;
+}
+.review-card img {
+    width: 62px;
+    height: 62px;
+    min-width: 62px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0 auto 5px;
+}
+
+.review-card h4 {
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.review-card .stars {
+    
+    font-size: 15px;
+    margin: 3px 0;
+}
+
+.review-card .comment {
+    font-size: 11px;
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+}
+@media (min-width: 601px) and (max-width: 800px) {
+    .hotels .cards,
+    .review-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media (max-width: 600px) {
+    .hotels .cards,
+    .review-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .hotel-card img {
+        height: 190px;
+    }
+
+.review-card .stars,
+.review-card .stars i {
+    color: #ffc107 !important;
+}
+
+}
+>>>>>>> dee0107 (Cap nhat giao dien website)
